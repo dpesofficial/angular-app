@@ -1,0 +1,705 @@
+/*===================
+Global Css
+=====================*/
+*{
+    font-family: "Open Sans";
+}
+/*===================
+Info page
+=====================*/
+.info-grid-options-wrap {
+    background: #fafafa;
+}
+.info-page-heading{
+  font-size: 26px;
+  font-family: "Open Sans";
+  color: rgb( 169, 169, 169 );
+  line-height: 1.538;
+  padding: 4vw 5vw;
+  font-weight: 300;
+}
+.info-grid {
+    text-align: center;
+    padding: 4vw 8vw 2vw;
+}
+.info-grid img {
+    padding-bottom: 25px;
+}
+.info-grid p {
+    font-family: "Open Sans";
+    color: rgb( 117, 117, 117 );
+    line-height: 1.5;
+    text-align: center;
+}
+.info-grid h3 {
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: rgb( 66, 66, 66 );
+    font-weight: bold;
+    line-height: 2.5;
+}
+.info-grid1 {
+    border-right: 1px solid #a9a9a9;
+}
+.info-border-bottom1 {
+    border-bottom: 1px solid #a9a9a9;
+    width: 49%;
+}
+.info-border-bottom2 {
+    border-bottom: 1px solid #a9a9a9;
+    width: 49%;
+    float: right;
+}
+.info-grid3 {
+    border-right: 1px solid #a9a9a9;
+}
+.info-border-bottom {
+    padding: 12px;
+}
+.info-get-started-btn {
+    text-align: center;
+    padding: 5vw;
+}
+.info-get-started-btn button {
+    border-radius: 3px;
+    background-color: rgb( 56, 141, 196 );
+    font-size: 24px;
+    font-family: "Open Sans";
+    color: rgb( 250, 250, 250 );
+    line-height: 1.667;
+    border: none;
+}
+.info-get-started-btn button:hover {
+    background-color: #0d79c2;
+}
+
+/*===================
+Switch Modal Header
+=====================*/
+.switchModalHeader {
+    padding: 0px;
+}
+.switchModalHeader h2 {
+    font-size: 26px;
+    color: rgb(56, 141, 196);
+    font-weight: bold;
+    line-height: 1.538;
+}
+.switchModalHeader p {
+  font-size: 16px;
+  color: rgb( 169, 169, 169 );
+  line-height: 2.5;
+  text-align: left;
+}
+/*===================
+First Step Checkbox
+=====================*/
+input[type=checkbox] , input[type=radio]{
+display: none;
+}
+#first-step-wrap , #first-step-tab-wrap ,#confirmationStep , #loginStep, .rangeContainer{
+    background: #f7f7f7;
+    padding: 20px 4vw 10px;
+    border: 1px solid #e4e4e4;
+    margin-top: 21px;
+}
+#first-step-tab-wrap{
+    padding: 2vw;
+}
+#first-step-wrap h3{
+  font-size: 24px;
+  font-family: "Open Sans";
+  color: rgb( 150, 150, 150 );
+  font-weight: bold;
+  line-height: 1.667;
+  margin-bottom: 22px;
+}
+i.fa.fa-check {
+    color: #fff;
+    font-size: 2.2em;
+    background: #585858;
+    border-radius: 50%;
+    padding: 6px;
+    position: absolute;
+    bottom: 12%;
+    right: 12%;
+    -webkit-box-shadow: 3px 8px 7px -2px rgba(0,0,0,0.23);
+}
+.label-img-wrap img {
+    height: 100px;
+}
+.label-img-wrap {
+    border: 10px solid #fff;
+    width: 100%;
+    text-align: center;
+    padding: 38px 10px;
+    margin: 10px auto;
+}
+.label-img-wrap:hover{
+	cursor: pointer;
+}
+.label-img-wrap.green-border-checked {
+    border: 10px solid #585858;
+    transition: all .5s ease;
+}
+.logo-check1 {
+    background: #dad3de;
+}
+.logo-check2 {
+    background: #ebe8e5;
+}
+.logo-check3 {
+    background: #dfeceb;
+}
+.logo-check4 {
+    background: #edfbfc;
+}
+span.checkSpanText {
+    display: block;
+    font-size: 18px;
+    color: rgb( 133, 133, 133 );
+    font-weight: bold;
+    line-height: 2.222;
+    position: relative;
+    top: 10px;
+}
+
+/*===================
+First Step Tab
+=====================*/
+#home {
+    padding: 30px 0px;
+}
+#home form label {
+    font-size: 16px;
+    color: rgb( 66, 66, 66 );
+    font-weight: 400;
+}
+.nextPrevBtn , #home form .nextPrevBtn {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb( 56, 141, 196 );
+    border-radius: 3px;
+    background-color: rgba( 254, 154, 0, 0 );
+    font-size: 18px;
+    color: rgb( 56, 141, 196 );
+    font-weight: bold;
+    line-height: 2.222;
+    padding: 2px 20px;
+     box-shadow: inset 0 0 0 0 #388dc4;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+}
+.nextPrevBtn:hover , #home form .nextPrevBtn:hover{
+    background-color: rgb( 56, 141, 196 );
+    color: #f7f7f7;
+    box-shadow: inset 100px 0 0 0 #388dc4;
+    cursor: pointer;
+}
+#first-step-tab-wrap ul.nav li a {
+    color: #cac9c7;
+    background-color: rgb( 56, 141, 196 );
+    border-radius: 0px;
+    background: #f7f7f7;
+    border: 2px solid #c7c5c3;
+    font-size: 20px;
+}
+#first-step-tab-wrap ul li.active a {
+    background-color: #388dc4;
+    color: #fff;
+    border: 2px solid #388dc4;
+}
+#first-step-tab-wrap ul li.active a:hover{
+    color: #fff;
+}
+#first-step-tab-wrap ul li a:hover{
+color:#388dc4;
+}
+div#first-step-tab-wrap ul li {
+    margin-right: 20px;
+}
+#first-step-tab-wrap .nav-tabs{
+    border:none;
+}
+.preferred-colors-wrap {
+    background: #fff;
+    border: 2px solid #e5e5e5;
+    padding: 10px;
+    width: 100%;
+    display: inline-block;
+}
+.preferred-colors-wrap .checkbox {
+    float: left;
+}
+.preferred-colors-wrap .checkbox i.fa.fa-check {
+    right: 42px;
+    font-size: 1em;
+    bottom: 38px;
+}
+.preferred-colors-wrap .checkbox p{
+    text-align: center;
+    margin: 0px;
+}
+.preferred-colors-wrap img {
+    border: 2px solid #ccc;
+    border-color: transparent;
+    height: 68px;
+    width: 68px;
+}
+.preferred-colors-border img{
+    border: 2px solid #4aa582;
+    transition: all .3s ease-in-out;
+}
+.preferred-logo-wrap img {
+    border: 4px solid #fff;
+}
+.preferred-logo-wrap {
+    background: #fff;
+    border: 2px solid #e5e5e5;
+    padding: 10px 0px;
+    width: 100%;
+    display: inline-block;
+}
+.preferred-logo-wrap label {
+    padding: 0px;
+}
+.preferred-logo-wrap .checkbox:nth-child(3) {
+    clear: left;
+}
+.preferred-logo-wrap .checkbox{
+  text-align: center;
+}
+.preferred-logo-wrap img {
+    width: 100%;
+}
+.preferred-logos-border img {
+    border: 4px solid #4aa582;
+    transition: all .5s linear;
+}
+.checkbox+.checkbox, .radio+.radio{
+    margin-top: 10px;
+}
+.preferred-logo-wrap i.fa.fa-check {
+    right: auto;
+    left: 20%;
+    bottom: 20%;
+    font-size: 1.5em;
+}
+
+
+/*===================
+Steps Top
+=====================*/
+.stepsProgress {
+    text-align: center;
+}
+i.fa.fa-circle {
+    color: #e6e6e6;
+    font-size: 2em;
+    cursor: pointer;
+    border: 10px solid #fff;
+    border-radius: 50%;
+    background: white;
+    position: relative;
+}
+i.fa.fa-circle:hover {
+    color: #388dc4;
+    transition: all .3s ease;
+}
+i.fa.fa-circle.blueCircle1 , i.fa.fa-circle.blueCircle2 , i.fa.fa-circle.blueCircle3  , i.fa.fa-circle.blueCircle4 {
+    color: #388dc4;
+}
+/*.blueCircle1Pseudo:after , .blueCircle2:after, .blueCircle3:after, .blueCircle4:after {
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: -2px;
+    border-bottom: solid 20px #4AA582;
+    border-left: solid 14px transparent;
+    border-right: solid 14px transparent;
+}*/
+.blueCirclePseudo:after{
+    content: '';
+    position: absolute;
+    top: 51px;
+    left: -2px;
+    border-bottom: solid 20px #f7f7f7;
+    border-left: solid 14px transparent;
+    border-right: solid 14px transparent;
+}
+ul.stepsProgress {
+    list-style: none;
+}
+ul.stepsProgress li{
+    display: inline;
+}
+.progress.stepProgress{
+    padding: 0px;
+    position: relative;
+    top: 46px;
+    height: 2px;
+    z-index: 10;
+    background: #e6e6e6;
+}
+.progress-bar{
+  background-color: #388dc4;
+}
+i.firstStepBeforeLine , i.secondStepBeforeLine , i.thirdStepBeforeLine , i.fourthStepBeforeLine{
+    position: absolute;
+    background: #388dc4;
+    left: 0px;
+    width: 12%;
+    top: 13px;
+    min-height: 2px;
+}
+i.secondStepBeforeLine{
+    width: 37%;background: #ccc;
+}
+i.thirdStepBeforeLine{
+    width: 62%;
+}
+i.fourthStepBeforeLine{
+    width: 100%;
+}
+.arrow-up-step {
+  width: 0; 
+  height: 0; 
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  
+  border-bottom: 15px solid black;
+}
+/*step test*/
+.stepsProgress {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    z-index: 10;
+    position: relative;
+}
+.firstStepCircle , .secondStepCircle , .thirdStepCircle , .fourthStepCircle{
+    width: 25%;
+    float: left;
+}
+/*label.firstStepAddClass:before {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 65px;
+    background: #388dc4;
+    position: absolute;
+    left: 92px;
+    top: 13px;
+}
+*/
+
+
+/*===================
+Switch animation
+=====================*/
+.animateNgHide.ng-hide {
+opacity: 0;
+}
+.animateNgHide {
+transition: .5s all;
+opacity: 1;   
+}
+
+.animateNgSwitch.ng-enter {
+opacity: 0;
+}
+.animateNgSwitch {
+transition: .5s all;
+opacity: 1;  
+}
+/*===================
+Second Step Rangle Slider
+=====================*/
+.range-slider__range {
+   -webkit-appearance: none;
+    width: calc(100% - (73px));
+    height: 10px;
+    border-radius: 0px;
+    background: #eaeaea;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+.range-slider__range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+          appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  cursor: pointer;
+  -webkit-transition: background .15s ease-in-out;
+  transition: background .15s ease-in-out;
+}
+.range-slider__range::-webkit-slider-thumb:hover {
+  background: #388dc4;
+}
+.range-slider__range:active::-webkit-slider-thumb {
+  background: #388dc4;
+}
+.range-slider__range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  -webkit-transition: background .15s ease-in-out;
+  transition: background .15s ease-in-out;
+}
+.range-slider__range::-moz-range-thumb:hover {
+  background: #388dc4;
+}
+.range-slider__range:active::-moz-range-thumb {
+  background: #388dc4;
+}
+::-moz-range-track {
+  background: #d7dcdf;
+  border: 0;
+}
+input::-moz-focus-inner,
+input::-moz-focus-outer {
+  border: 0;
+}
+.rangeContainer span {
+    font-size: 20px;
+    color: rgb( 254, 154, 0 );
+    display: block;
+    position: relative;
+    top: -10px;
+    text-align: right;
+}
+.range-cost{
+    text-align: right;
+}
+.rangeContainer p{
+    font-size: 20px;
+    color: rgb( 66, 66, 66 );
+    font-weight: 600;
+    border-bottom: 1px solid #b8b8b8;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+.cmsSelect p {
+    display: block;
+    margin: 0px;
+    border: none;
+}
+p.cmsSelectTitle{
+    border-bottom: 1px solid #b8b8b8;
+    display: inline-block;
+  
+}
+.cmsSelect select {
+    border: none;
+    border-bottom: 1px solid #eee;
+    width: 30vw;
+    height: 50px;
+}
+.sliderRowWrap {
+    margin: 20px 0px;
+}
+.totalCost{
+    position: relative;
+    right: 15px;
+}
+.timeTextWrap , .revisionTextWrap{
+    font-size: 16px;
+    color: rgba( 119, 119, 119, 0.502 );
+    font-weight: bold;
+    padding-top: 40px;
+    position: relative;
+    left: 18%;
+}
+.revisionTextWrap em {
+    font-size: 12px;
+    color: rgb( 254, 154, 0 );
+    text-transform: uppercase;
+    display: block;
+    padding-left: 17px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 2px;
+}
+/*===================
+Third Step Login 
+=====================*/
+#loginStep button{
+    border-radius: 6px;
+    background-color: rgb( 254, 154, 0 );
+    color: #fff;
+    border: none;
+    padding: 10px 25px;;
+}
+#loginStep form label{
+  font-size: 14px;
+  color: rgb( 119, 119, 119 );
+  font-weight: bold;
+  height: 50px;
+  position: relative;
+  top: 16px;
+  padding: 0px;
+}
+#loginStep input{
+    background: #fff;
+    border: none;
+    border: 1px solid;
+    border-color: rgba( 133, 133, 133 ,0.21);
+    border-radius: 0px;
+    height: 50px;
+}
+#loginStep .loginContainer {
+    padding: 4vw 0vw;
+    margin-bottom: 30px;
+}
+#loginStep h3{
+  font-size: 16px;
+  color: rgb( 203, 203, 203 );
+  font-weight: bold;
+   margin-bottom: 35px
+;}
+#loginStep h3 a{
+  color: #388dc4;
+}
+#loginStep h3 a:hover{
+  text-decoration: none;
+  opacity: 0.9;
+}
+#loginStep h3 span{
+  font-size: 32px;
+  color: rgb( 66, 66, 66 );
+  font-weight: bold;
+  line-height: 1.25;
+}
+#loginStep h3 span:after{
+    content: "|";
+    font-size: 22px;
+    margin-left: 5px;
+}
+/*================================
+Fourth Step Confirmation Message
+==================================*/
+.confirmationContainer {
+    width: 100%;
+}
+#confirmationStep .alert{
+    background: #91e6b1;
+    font-size: 28.297px;
+    color: rgb( 254, 254, 254 );
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.344;
+    padding: 65px 35px;
+}
+#confirmationStep h3{
+  font-size: 58px;
+  color: rgb( 7, 111, 171 );
+  font-style: italic;
+  line-height: 0.586;
+  text-align: center;
+  padding: 25px 0px 40px;
+}
+#confirmationStep h4{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    color: #424242;
+}
+.thankYouAlert p{
+    font-size: 20px;
+    font-weight: 400;
+    width: 60%;
+    text-align: center;
+    margin: 0px auto;
+}
+#confirmationStep p a{
+    color: #0d72ad;
+    font-weight: 700;
+}
+#confirmationStep p a:hover{
+    text-decoration: none;
+}
+/*================================
+Payment Fourtth Step
+==================================*/
+#confirmationStep .btn.btn-default {
+    border-radius: 6px;
+    background-color: rgb( 254, 154, 0 );
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+}
+.leftFormText {
+    font-size: 20px;
+    color: rgb( 66, 66, 66 );
+    font-weight: 600;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+.summaryWrap {
+    margin-bottom: 20px;
+}
+.packageTitle {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 12px;
+}
+.packageDetail span{
+    float: right;
+    color: rgb( 254, 154, 0 );
+}
+.packageDetail {
+    font-size: 16px;
+    color: rgb( 66, 66, 66 );
+    font-weight: 600;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+   .summaryWrap {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 20px;
+}
+.cardPayDiv {
+    /*width: 50%;*/
+    margin: 20px auto;
+}
+.paymentHeader p {
+    font-size: 20px;
+    padding-top: 15px;
+    text-indent: 10px;
+}
+.cardPayDiv .form-group{
+  padding: 0px 20px;
+}
+.paymentHeader img {
+    width: 100%;
+}
+
+
+
+
+@media only screen and (min-width: 992px){
+    .cardPayDiv {
+      width: 50%;
+  }
+}
+
+.firstStepCircle label {
+    float: right;
+    position: relative;
+    left: -76px;
+}
+.fourthStepCircle label {
+    float: left;
+    position: relative;
+    right: -78px;
+}
